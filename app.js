@@ -7,7 +7,7 @@
 //console.log(module);
     //^this will print the module object
 
-const log = require('./logger');
+const logger = require('./logger');
 //we want to use the logger.js file in the same directory, so we load it using reuqire
 
 //instead of using a var, use a const so we don't over write the variable
